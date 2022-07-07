@@ -1,1 +1,2 @@
 # Mass-analyser---python
+This reads in a FASTA format file, entered on the command line, and converts the amino acid sequences into mass-to-charge values and hydrophobicity to 4 decimal places. Lists containing the corresponding protein, peptide number, and ion values are generated, and this information is formatted into a table, using pandas, and written to a text file. There is a user input allowing the choice of either the monoisotopic or average masses to be viewed in the table. 
